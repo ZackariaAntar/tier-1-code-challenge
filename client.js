@@ -58,6 +58,9 @@ myScore = sumTiles(myScrabbleTiles);
 console.log(myScore);
 // 8. Check whether or not your score is higher than the highScore.
 // 8-1 If your score is higher, change highScore to the new high score.
-
-
+if (myScore > highScore){
+  console.log("Congrats, you've got the new highest score.");
+  highScore = myScore;
+}
+console.log(highScore);
 // DONE!
